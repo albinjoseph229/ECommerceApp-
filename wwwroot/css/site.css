@@ -1,0 +1,75 @@
+/* site.css */
+body {
+    padding-top: 56px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1em;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .product-card h3 {
+        margin-top: 0;
+    }
+
+    .product-card p {
+        margin-bottom: 10px;
+    }
+
+    .product-card form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .product-card form input[type="number"] {
+            width: 60px;
+        }
+
+.card {
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+h2.text-center {
+    margin-bottom: 20px;
+}
+
+.row.justify-content-center {
+    margin-top: 20px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.content {
+    padding-bottom: 60px; /* Add padding to the bottom of the content area */
+}

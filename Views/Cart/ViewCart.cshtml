@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ECommerceApp.Models.Cart>
+
+@{
+    ViewData["Title"] = "View Cart";
+}
+
+<h2>View Cart</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Total Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.TotalAmount.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
