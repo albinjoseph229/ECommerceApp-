@@ -1,5 +1,3 @@
-Here's a sample **README.md** file for your **ECommerceApp** built using **ASP.NET Core MVC** and **Entity Framework Core**.
-
 ---
 
 # ECommerceApp
@@ -135,9 +133,5 @@ Modify the `appsettings.json` file to configure the database connection string:
 ### User Registration
 ![User Registration](https://github.com/user-attachments/assets/bf4fe3ab-28ef-40ea-a3e1-2f318c6e27a3)
 
-## License
-
-
----
 
 
